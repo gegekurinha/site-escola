@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho{
+    background-color: #1a9cd8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #df0c0c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabeçalho-logo{
+    padding: 24px 0;
+    font-size: 24px;
+}
+.cabeçalho-lista-item{
+    display:inline-flex;
+    margin: 0 16px;
+}
+.imagem-escola{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#1ebb91,#2fc40213);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #161414af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 24px 0;
+}
+.escola-div{
+    width: 35%;
+}
+.sobre-escola{
+    padding: 24px 0;
+}
